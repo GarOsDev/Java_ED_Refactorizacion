@@ -1,8 +1,14 @@
 package calcualdora;
+/**
+ * 
+ * La clase Operaciones será una de tipo enumerada, un archivo .java de valores y parametros constantes utilizados por la clase Cerebro. Se utiliza esta enumeracion porque de 
+ * partida sabemos qué operaciones va a realizar la calculadora, y dada la naturaleza de los mismos no son susceptibles de ser modificados.
+ */
 
 import java.util.Arrays;
 
 public enum Operaciones {
+	
 	SUMAR("Suma","+","Suma dos números",1),
 	RESTAR("Resta","-","Resta dos números",2),
 	MULTIPLICAR("Multiplicación","*","Multiplica dos números",3),

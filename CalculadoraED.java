@@ -8,7 +8,9 @@ public class CalculadoraED {
 		
 		CerebroCalculadoraED cce = new CerebroCalculadoraED();
 		Scanner teclado = new Scanner(System.in);
+		
 		String entrada;
+		
 		do {
 			imprimirCabecera();
 			imprimirSeleccionOp();
